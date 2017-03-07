@@ -482,7 +482,7 @@ void testG(int x, int y, int episodes){
     int icount = 0;
     int fcount=0;
     for(int s=0; s<stat_runs;s++){
-        Qsetup(pqt);
+        Qsetup2(pqt);
         for(int c=0; c<episodes; c++){
             robot.xpos=1;
             robot.ypos=1;
