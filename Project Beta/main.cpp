@@ -353,7 +353,7 @@ void testA(int x, int y, int episodes){
     world.ymax=y-1;
     world.goalx=8;
     world.goaly=8;
-    int hint = 10000;
+    int hint = 100000;
     bool lose = false;
     
     int stat_runs=30;
@@ -449,7 +449,7 @@ void TestB(int x, int y, int episodes){
     
     outputFile.close();
     //cout << "Learning Curve output to text file" << endl;
-    cout << "Learning Agent completed the grid with walls " << stat_runs << " times" << endl;
+    cout << "Test B Passed, Learning curve output to text file " << endl;
 }
 
 void testD(int x, int y, int episodes){
